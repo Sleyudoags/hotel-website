@@ -74,10 +74,26 @@ p {
 }
 
 .bg-primary {
-  background: #333;
-    color: blanchedalmond;
+  color: #333;
+    background: blanchedalmond;
      
 }
+ 
+.clr {
+  clear: both;
+}
+
+.l-heading {
+  font-size: 40px;
+}
+
+/*  Padding */
+.py-1 { padding: 10px  0;}
+.py-2 { padding: 20px  0;}
+.py-3 { padding: 30px  0;}
+
+
+
 
 /* Navbar */
 #navbar {
@@ -161,4 +177,56 @@ p {
 
 #home-info .info-content {
  padding-bottom: 30px ;
+}
+/*  Features */
+.box {
+  float: left;
+  width: 33.3%;
+  padding: 50px;
+  text-align: center;
+}
+
+.box i {
+  margin-bottom: 10px ;
+}
+
+/* About-Info  */
+#about-info .info-right {
+  float: right;
+  width: 50%;
+  min-height: 100%;
+
+}
+
+#about-info .info-right img {
+  display: block;
+  width: 70%;
+  margin: auto;
+  border-radius:  50%; 
+}
+
+#about-info .info-left {
+  float: left;
+  width: 50%;
+  min-height: 100%;
+}
+
+/* Testimonials */
+#testionials {
+  height: 600px;
+  background: url(../img/test-bg.jpg);
+}
+
+#testimonials .tesimonial img {
+  width: 100px;
+  
+}
+
+
+/* Footer */
+#main-footer {
+  text-align: center;
+   background: #444;
+   color: #f4f4f4;
+   padding: 20px;
 }
